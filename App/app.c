@@ -2,8 +2,10 @@
 #include "app.h"
 #include "log.h"
 #include "md_adc.h"
+#include "md_usb.h"
 
 void init(void) {
+    usbPlugged();
 }
 
 void setup(void) {
