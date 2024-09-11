@@ -2,8 +2,11 @@
 #include "app.h"
 #include "log.h"
 #include "md_adc.h"
+#include "test.h"
 
 void init(void) {
+  test_func();
+  //test_func2(); // will undefined reference
 }
 
 void setup(void) {
