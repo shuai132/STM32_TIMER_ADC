@@ -1,12 +1,13 @@
-#include <gpio.h>
 #include "app.h"
 #include "log.h"
 #include "md_adc.h"
-#include "test.h"
+#include "test_a.h"
+#include "test_b.h"
+#include <gpio.h>
 
 void init(void) {
-  test_func();
-  //test_func2(); // will undefined reference
+  test_func_a();
+  test_func_b();
 }
 
 void setup(void) {
