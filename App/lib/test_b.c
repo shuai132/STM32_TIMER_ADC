@@ -5,5 +5,5 @@
 
 void test_func_b() {
   printf("test_func_b\n");
-  test_func_a();
+  test_func_c();
 }
